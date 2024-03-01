@@ -4,8 +4,6 @@ import xlrd
 import xlwt
 import matplotlib.pyplot as plt
 
-
-
 class ValueIterationModel():
     def __init__(self,p=1.0,q=1.0,g_Cons=0.5,alpha1=0.025, alpha2=0.025):
 
