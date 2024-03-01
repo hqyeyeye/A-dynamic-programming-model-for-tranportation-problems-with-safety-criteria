@@ -1,7 +1,6 @@
 from math import floor
 from state import stateTree
 import xlrd
-#import xlwt
 import matplotlib.pyplot as plt
 
 class ValueIterationModel():
@@ -55,7 +54,7 @@ class ValueIterationModel():
     def setgNone(self,gNone):
         self.gNone = gNone
 
-    '''function to load data'''
+    '''function to load data about weather and traffic according to the time and location'''
     def readData(self, filename, sheet_index):
         wb = xlrd.open_workbook(filename)
         sh = wb.sheet_by_index(sheet_index)
