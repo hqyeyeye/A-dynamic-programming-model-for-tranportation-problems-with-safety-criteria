@@ -1,7 +1,4 @@
 '''state variable'''
-
-
-
 class state():
     def __init__(self, g, x, t, p):
         self.g = g
