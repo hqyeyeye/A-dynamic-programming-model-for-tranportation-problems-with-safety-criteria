@@ -7,7 +7,8 @@ The significant factors that substantially impact the risk are weather and tra
 To execute the code, please run the script located in "run.py".The file "valueiteration.py" contains the code for the value iteration process used to find the optimal policy for our Markov Decision Process (MDP) model. The file includes variables related to the MDP model for human driving, such as state, action, transition function, and others. You can utilize the "valueiteration_write.py" script to monitor and evaluate the fluctuating value of outcomes at different stages by importing "ValueIterationModel". The "state.py" file defines the state variable in the MDP model.
 
 # To run the autonomous driving model, here are related files:
-The file "practice.py" includes the code for the value iteration process utilized to determine the optimal policy for our Markov Decision procedure (MDP) model when the driver degradation is a constant value, which is denoted as g_c. The file also contains variables about the MDP model such as the state, action, transition function, and others. To track and analyze the changing value of results across various stages, you can use the "valueiteration_write.py" script. The "state.py" file is used to define the state variable regarding the MDP model.
+The file "practice.py" provides the code for the value iteration process used to find the optimal policy for our Markov Decision Procedure (MDP) model when driver degradation is constant, denoted as g_c. The file contains variables related to the MDP model, including state, action, and transition functions. To run the file, please execute the code in "run_autonomous.py".
+
 
 
 
